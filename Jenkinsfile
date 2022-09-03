@@ -1,12 +1,12 @@
 pipeline {
     agent {
         node: 
-          label 'Node'
+          label 'Pal-Node'
      }
     tools {
 
         maven 'maven 3.6.3'
-        jdk 'jdk 11.0.13'
+        jdk 'jdk 11.0.16'
     }
     stages {
         stage('Check Maven Version') {
