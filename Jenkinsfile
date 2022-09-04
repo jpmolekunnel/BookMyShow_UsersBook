@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node: 
-          label 'Pal-Node'
+          label 'Jenkins_Node'
      }
     tools {
 
